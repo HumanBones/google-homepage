@@ -11,6 +11,7 @@ body {
 a{
     color:#5F6368;
     text-decoration: none;
+    font-family: arial,sans-serif;
 }
 
 li{
@@ -120,7 +121,7 @@ button:hover{
     background-color:#f2f2f2;
     width: 100%;
     bottom: 0;
-    padding: 20px 0px 20px 0px;
+    padding: 10px;
 }
 
 .left-list{
@@ -134,8 +135,9 @@ button:hover{
 }
 
 .footer-container a {
-    margin: 10px 5px;
-    padding: 10px 5px;
+    margin: 10px 15x;
+    padding: 10px 10px;
+    font-size: 14px;
 }
 
 .footer-container a:hover{
