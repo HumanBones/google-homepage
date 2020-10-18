@@ -1,0 +1,149 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin:0;
+}
+
+body {
+    background-color: #fff;
+}
+
+a{
+    color:#5F6368;
+    text-decoration: none;
+}
+
+li{
+    list-style-type: none;
+}
+
+.nav-header{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 20px 10px;
+}
+
+.nav-bar{
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    padding: auto 20px;
+}
+
+
+.nav-bar ul{
+    display: flex;
+}
+
+.nav-bar li{
+    list-style-type: none;
+}
+
+.nav-bar a:hover{
+    text-decoration: underline;
+}
+
+.nav-bar a {
+    color: rgba(0,0,0,0.87);
+    padding: 5px;
+    margin-top: 20px;
+    text-decoration: none;
+    
+}
+
+.google-img{
+    padding: auto;
+    padding-right: 0px;
+    width: auto;
+    height: 30px;   
+    margin-top: auto;
+    cursor: pointer;
+}
+
+.main-header{
+    text-align: center;
+    align-self: center;
+    margin: 50px 100px 0px 100px;
+}
+
+.main-img{
+    height: 75px;
+    width: auto;
+}
+
+.main-form{
+    text-align: center;
+    align-self: center;
+    margin: 0px 100px 0px 100px;
+    padding: 20px;
+}
+
+input{
+    width: 55%;
+    height: 45px;
+    border-radius: 30px;
+    border: 1px solid #dfe1e5;
+}
+
+.search-btn{
+    text-align: center;
+}
+
+button{
+    font-family: arial,sans-serif;
+    font-size: 14;
+    text-align: center;
+    color: #5F6368;
+    width: auto;
+    height: 30px;
+    border-radius: 4px;
+    background-color: #f2f2f2;
+    border: 1px solid  #f2f2f2;
+    line-height: 27px;
+    cursor: pointer;
+    padding: 0 16px;
+    min-width: 54px;
+}
+
+button:hover{
+    box-shadow: 0 1px 1px rgba(0,0,0,0.1);
+    background-color: #f8f8f8;
+    border: 1px solid #c6c6c6;
+    color: #222;
+}
+
+
+.footer-container{
+    display: flex;
+    position: fixed;
+    background-color:#f2f2f2;
+    width: 100%;
+    bottom: 0;
+    padding: 20px 0px 20px 0px;
+}
+
+.left-list{
+    display: flex;
+    width: 50%;
+    justify-content: flex-start;
+}
+
+.footer-container ul{
+    display: flex;
+}
+
+.footer-container a {
+    margin: 10px 5px;
+    padding: 10px 5px;
+}
+
+.footer-container a:hover{
+    text-decoration: underline;
+}
+
+.right-list{
+    display: flex;
+    justify-content: flex-end;
+    width: 50%;
+}
